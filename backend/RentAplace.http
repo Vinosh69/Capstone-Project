@@ -1,0 +1,6 @@
+@RentAplace_HostAddress = http://localhost:5131
+
+GET {{RentAplace_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
