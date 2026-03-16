@@ -1,0 +1,135 @@
+<section class="home-container">
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Find your next stay</h1>
+      <p class="hero-subtitle">Search, save, and reserve in seconds.</p>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <form class="search-form" (ngSubmit)="search()">
+          <div class="search-field">
+            <label>Where</label>
+            <input type="text" [(ngModel)]="filters.location" name="location" placeholder="Search destinations" />
+          </div>
+
+          <div class="search-divider"></div>
+
+          <div class="search-field">
+            <label>Check in</label>
+            <input type="date" [(ngModel)]="filters.checkIn" name="checkIn" />
+          </div>
+
+          <div class="search-divider"></div>
+
+          <div class="search-field">
+            <label>Check out</label>
+            <input type="date" [(ngModel)]="filters.checkOut" name="checkOut" />
+          </div>
+
+          <div class="search-divider"></div>
+
+          <div class="search-field">
+            <label>Type</label>
+            <select [(ngModel)]="filters.propertyType" name="propertyType">
+              <option value="">Any type</option>
+              <option value="Flat">Flat</option>
+              <option value="Villa">Villa</option>
+              <option value="Apartment">Apartment</option>
+            </select>
+          </div>
+
+          <button class="search-button" type="submit" [disabled]="loading">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm"></span>
+            <span *ngIf="!loading">Search</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+      <h2 class="h4 mb-0">Explore Properties</h2>
+      <div class="d-flex align-items-center gap-2">
+        <button *ngIf="loadError" type="button" class="btn btn-outline-warning btn-sm" (click)="fetchProperties()">
+          Try again
+        </button>
+        <button type="button" class="btn btn-outline-primary btn-sm" (click)="fetchProperties()" [disabled]="loading" title="Reload properties">
+          <span *ngIf="loading" class="spinner-border spinner-border-sm me-1"></span>
+          Reload
+        </button>
+        <span class="text-muted">
+          Wishlist: <span class="badge text-bg-primary rounded-pill">{{ wishlist.size }}</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Properties Grid -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div *ngIf="loading" class="col-12 w-100 text-center py-5">
+        <div class="spinner-border text-primary" role="status" aria-label="Loading"></div>
+        <div class="mt-2 text-muted">Loading…</div>
+      </div>
+
+      <div *ngIf="!loading && loadError" class="col-12 w-100 text-center py-4">
+        <p class="text-warning mb-2">{{ loadError }}</p>
+        <button type="button" class="btn btn-primary btn-sm" (click)="fetchProperties()">Try again</button>
+      </div>
+
+      <div *ngIf="!loading && !loadError && properties.length === 0" class="col-12 w-100 text-center py-5 text-muted">
+        No properties found matching your criteria.
+      </div>
+
+      <ng-container *ngIf="!loading && !loadError">
+      <div class="col" *ngFor="let property of properties">
+        <article class="property-card">
+          <div class="property-card-link" [routerLink]="['/property', property.id]">
+            <!-- Image: lazy load + error fallback -->
+            <div class="property-image-wrapper">
+              <img *ngIf="property.images?.length && !imageErrors[property.id]; else noImage"
+                   [src]="propertyService.getImageUrl(property.images[0].imageUrl)"
+                   alt="{{ property.title }}" class="property-img" loading="lazy"
+                   (error)="onImageError(property.id)">
+              <ng-template #noImage>
+                <div class="placeholder-img d-flex align-items-center justify-content-center bg-light text-muted">
+                  No image
+                </div>
+              </ng-template>
+
+              <button class="favorite-btn"
+                      [class.is-favorite]="inWishlist(property)"
+                      (click)="toggleWishlist(property); $event.stopPropagation()">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 24px; width: 24px; stroke: currentColor; stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+              </button>
+            </div>
+
+            <div class="property-info px-2 pb-2">
+              <div class="d-flex justify-content-between align-items-start">
+                <h3 class="property-title text-truncate">{{ property.location }}</h3>
+                <div class="property-rating">
+                  <span>★</span> {{ property.rating || 'New' }}
+                </div>
+              </div>
+              <p class="property-type text-muted mb-1">{{ property.propertyType }} • {{ property.title }}</p>
+              <div class="property-price">
+                <span class="fw-bold">₹{{ property.pricePerNight }}</span> <span class="text-muted">night</span>
+              </div>
+            </div>
+          </div>
+          <!-- Quick Reserve: when dates are set, go to details with dates pre-filled -->
+          <div class="property-card-actions p-2 border-top bg-light rounded-bottom">
+            <button *ngIf="canQuickReserve()" type="button" class="btn btn-primary btn-sm w-100"
+                    (click)="goToReserve(property)">
+              Reserve with selected dates
+            </button>
+            <a *ngIf="!canQuickReserve()" [routerLink]="['/property', property.id]" class="btn btn-outline-primary btn-sm w-100 text-decoration-none">
+              View details &amp; reserve
+            </a>
+          </div>
+        </article>
+      </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

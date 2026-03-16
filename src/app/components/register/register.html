@@ -1,0 +1,31 @@
+<section class="card auth-card">
+  <h2>Sign up</h2>
+
+  <form (ngSubmit)="submitRegister()">
+    <label class="form-label">Name</label>
+    <input class="form-control" type="text" [(ngModel)]="name" name="name" placeholder="Your name" required />
+
+    <label class="form-label">Email</label>
+    <input class="form-control" type="email" [(ngModel)]="email" name="email" placeholder="you@example.com" required />
+
+    <label class="form-label">Password</label>
+    <input class="form-control" type="password" [(ngModel)]="password" name="password" placeholder="••••••••" required />
+
+    <label class="form-label">Role</label>
+    <select class="form-select" [(ngModel)]="role" name="role">
+      <option value="User">Renter</option>
+      <option value="Owner">Owner</option>
+    </select>
+
+    <p *ngIf="feedback" class="text-danger mb-0">{{ feedback }}</p>
+
+    <button class="btn btn-primary" type="submit" [disabled]="submitting">
+      <span *ngIf="submitting" class="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
+      {{ submitting ? 'Creating account…' : 'Sign up' }}
+    </button>
+  </form>
+
+  <div class="auth-footer">
+    Already have an account? <a routerLink="/login">Log in</a>
+  </div>
+</section>

@@ -1,0 +1,92 @@
+/* Login page layout and card */
+.login-page {
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #f7f9fc 0%, #e8eef5 50%, #dde5f0 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem 2.25rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.auth-card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.auth-card .form-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.35rem;
+}
+
+.auth-card .form-control {
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.auth-card .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+.auth-card .btn-primary {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.auth-card .text-danger {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.auth-footer {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.auth-footer a {
+  color: #0d6efd;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+.login-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #555;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.login-back-link:hover {
+  color: #222;
+}
