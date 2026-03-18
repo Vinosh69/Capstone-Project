@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LibraryMng.Test/LibraryMng.Test.csproj" />
+  <Project Path="LibraryMng/LibraryMng.csproj" />
+</Solution>

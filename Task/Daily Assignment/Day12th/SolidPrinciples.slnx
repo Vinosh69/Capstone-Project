@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DesignPattern/DesignPattern.csproj" />
+  <Project Path="SolidPrinciples/SolidPrinciples.csproj" />
+</Solution>
