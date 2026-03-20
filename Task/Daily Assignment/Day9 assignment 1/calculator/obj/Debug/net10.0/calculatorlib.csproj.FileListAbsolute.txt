@@ -1,0 +1,11 @@
+C:\Users\Vinosh\source\repos\calculator\calculator\bin\Debug\net10.0\calculatorlib.deps.json
+C:\Users\Vinosh\source\repos\calculator\calculator\bin\Debug\net10.0\calculatorlib.dll
+C:\Users\Vinosh\source\repos\calculator\calculator\bin\Debug\net10.0\calculatorlib.pdb
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\calculatorlib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\calculatorlib.AssemblyInfoInputs.cache
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\calculatorlib.AssemblyInfo.cs
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\calculatorlib.csproj.CoreCompileInputs.cache
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\calculatorlib.dll
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\refint\calculatorlib.dll
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\calculatorlib.pdb
+C:\Users\Vinosh\source\repos\calculator\calculator\obj\Debug\net10.0\ref\calculatorlib.dll

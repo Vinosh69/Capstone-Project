@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPagesDemo.Pages.IndexModel
+
+<h2>Item List</h2>
+
+<ul>
+    @foreach (var item in RazorPagesDemo.Pages.IndexModel.Items)
+    {
+        <li>@item.Name</li>
+    }
+</ul>
+
+<a href="/AddItem">Add New Item</a>

@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|c:\\users\\vinosh\\source\\repos\\rest api assignment\\rest api assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|solutionrelative:rest api assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|c:\\users\\vinosh\\source\\repos\\rest api assignment\\rest api assignment\\controllers\\directorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|solutionrelative:rest api assignment\\controllers\\directorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|c:\\users\\vinosh\\source\\repos\\rest api assignment\\rest api assignment\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|solutionrelative:rest api assignment\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|c:\\users\\vinosh\\source\\repos\\rest api assignment\\rest api assignment\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|solutionrelative:rest api assignment\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|c:\\users\\vinosh\\source\\repos\\rest api assignment\\rest api assignment\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|solutionrelative:rest api assignment\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|c:\\users\\vinosh\\source\\repos\\rest api assignment\\rest api assignment\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B709FA2-35CA-4F49-8143-882D716243EF}|REST API Assignment\\REST API Assignment.csproj|solutionrelative:rest api assignment\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "REST API Assignment\\Program.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Program.cs",
+              "RelativeToolTip": "REST API Assignment\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:24:29.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DirectorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Controllers\\DirectorsController.cs",
+              "RelativeDocumentMoniker": "REST API Assignment\\Controllers\\DirectorsController.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Controllers\\DirectorsController.cs",
+              "RelativeToolTip": "REST API Assignment\\Controllers\\DirectorsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:23:31.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "REST API Assignment\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "REST API Assignment\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:18:33.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "REST API Assignment\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "REST API Assignment\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:16:57.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "REST API Assignment\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Models\\Movie.cs",
+              "RelativeToolTip": "REST API Assignment\\Models\\Movie.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:14:54.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Director.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Models\\Director.cs",
+              "RelativeDocumentMoniker": "REST API Assignment\\Models\\Director.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\REST API Assignment\\REST API Assignment\\Models\\Director.cs",
+              "RelativeToolTip": "REST API Assignment\\Models\\Director.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:15:36.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

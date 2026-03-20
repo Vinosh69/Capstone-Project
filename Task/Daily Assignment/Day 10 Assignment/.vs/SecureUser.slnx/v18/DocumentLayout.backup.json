@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{042F1533-0D6B-4878-8CD5-738C62BE5BCE}|SecureUser.Tests\\SecureUser.Tests.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042F1533-0D6B-4878-8CD5-738C62BE5BCE}|SecureUser.Tests\\SecureUser.Tests.csproj|solutionrelative:secureuser.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA3D13C-F3C4-4CE0-B3F1-33F3E2308035}|SecureUser.ConsoleApplication\\SecureUser.ConsoleApplication.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser.consoleapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA3D13C-F3C4-4CE0-B3F1-33F3E2308035}|SecureUser.ConsoleApplication\\SecureUser.ConsoleApplication.csproj|solutionrelative:secureuser.consoleapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SecureUser||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser\\security\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\security\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.ConsoleApplication\\Program.cs",
+              "RelativeDocumentMoniker": "SecureUser.ConsoleApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.ConsoleApplication\\Program.cs",
+              "RelativeToolTip": "SecureUser.ConsoleApplication\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:34:11.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecureUser",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\SecureUser.csproj",
+              "RelativeDocumentMoniker": "SecureUser\\SecureUser.csproj",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\SecureUser.csproj",
+              "RelativeToolTip": "SecureUser\\SecureUser.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-25T07:31:22.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Services\\UserService.cs",
+              "RelativeToolTip": "SecureUser\\Services\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:15:56.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AesEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\AesEncryption.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Security\\AesEncryption.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\AesEncryption.cs",
+              "RelativeToolTip": "SecureUser\\Security\\AesEncryption.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:13:30.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "SecureUser\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:12:54.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Models\\User.cs",
+              "RelativeToolTip": "SecureUser\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:11:13.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "SecureUser.Tests\\Test1.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.Tests\\Test1.cs",
+              "RelativeToolTip": "SecureUser.Tests\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T06:55:27.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
