@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="SecureUser.ConsoleApplication/SecureUser.ConsoleApplication.csproj" />
-  <Project Path="SecureUser.Tests/SecureUser.Tests.csproj" />
-  <Project Path="SecureUser/SecureUser.csproj" Id="4aca1748-6e97-48f0-bf19-32aa787c2a36" />
-</Solution>

@@ -1,0 +1,83 @@
+.status-list {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.status-list li.confirmed {
+  color: #0a7a29;
+}
+
+.status-list li.rejected {
+  color: #b02a37;
+}
+
+.status-list li.pending {
+  color: #997404;
+}
+
+/* Shared chat UI (Renter <-> Owner) */
+.chat-window {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: #fbfcff;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  padding: 12px;
+  max-height: 320px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.chat-row {
+  display: flex;
+  margin: 10px 0;
+}
+
+.chat-row.from-me {
+  justify-content: flex-end;
+}
+
+.chat-row:not(.from-me) {
+  justify-content: flex-start;
+}
+
+.chat-bubble {
+  max-width: 78%;
+  padding: 10px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+}
+
+.chat-row.from-me .chat-bubble {
+  background: #0d6efd;
+  border-color: #0d6efd;
+  color: #ffffff;
+}
+
+.chat-text {
+  white-space: pre-wrap;
+  line-height: 1.35;
+  word-break: break-word;
+}
+
+.chat-meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+  font-size: 0.75rem;
+  opacity: 0.85;
+  justify-content: flex-start;
+}
+
+.chat-row.from-me .chat-meta {
+  justify-content: flex-end;
+}
+
+.chat-sender {
+  font-weight: 600;
+}
