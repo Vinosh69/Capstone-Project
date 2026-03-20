@@ -1,0 +1,14 @@
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\bin\Debug\net10.0\DesignPattern.exe
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\bin\Debug\net10.0\DesignPattern.deps.json
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\bin\Debug\net10.0\DesignPattern.runtimeconfig.json
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\bin\Debug\net10.0\DesignPattern.dll
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\bin\Debug\net10.0\DesignPattern.pdb
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.AssemblyInfoInputs.cache
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.AssemblyInfo.cs
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.csproj.CoreCompileInputs.cache
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.dll
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\refint\DesignPattern.dll
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.pdb
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\DesignPattern.genruntimeconfig.cache
+C:\Users\Vinosh\source\repos\SolidPrinciples\DesignPattern\obj\Debug\net10.0\ref\DesignPattern.dll

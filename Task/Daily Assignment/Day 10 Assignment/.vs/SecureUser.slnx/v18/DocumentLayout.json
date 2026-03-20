@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13D7AC63-9D12-495C-D6B9-A41BEC55BA07}|SecureUser.Tests\\SecureUser.Tests.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D7AC63-9D12-495C-D6B9-A41BEC55BA07}|SecureUser.Tests\\SecureUser.Tests.csproj|solutionrelative:secureuser.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SecureUser||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|C:\\Users\\Vinosh\\source\\repos\\SecureUser\\secureuser\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|C:\\Users\\Vinosh\\source\\repos\\SecureUser\\secureuser\\security\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\security\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|C:\\Users\\Vinosh\\source\\repos\\SecureUser\\secureuser\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|C:\\Users\\Vinosh\\source\\repos\\SecureUser\\secureuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACA1748-6E97-48F0-BF19-32AA787C2A36}|SecureUser\\SecureUser.csproj|solutionrelative:secureuser\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270E419D-018A-6C47-2385-9EAE2B54F443}|SecureUser.ConsoleApplication\\SecureUser.ConsoleApplication.csproj|c:\\users\\vinosh\\source\\repos\\secureuser\\secureuser.consoleapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270E419D-018A-6C47-2385-9EAE2B54F443}|SecureUser.ConsoleApplication\\SecureUser.ConsoleApplication.csproj|solutionrelative:secureuser.consoleapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.ConsoleApplication\\Program.cs",
+              "RelativeDocumentMoniker": "SecureUser.ConsoleApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.ConsoleApplication\\Program.cs",
+              "RelativeToolTip": "SecureUser.ConsoleApplication\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:34:11.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "SecureUser.Tests\\Test1.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser.Tests\\Test1.cs",
+              "RelativeToolTip": "SecureUser.Tests\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T06:55:27.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecureUser",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\SecureUser.csproj",
+              "RelativeDocumentMoniker": "SecureUser\\SecureUser.csproj",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\SecureUser.csproj",
+              "RelativeToolTip": "SecureUser\\SecureUser.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-25T07:31:22.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Services\\UserService.cs",
+              "RelativeToolTip": "SecureUser\\Services\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:15:56.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AesEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\AesEncryption.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Security\\AesEncryption.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\AesEncryption.cs",
+              "RelativeToolTip": "SecureUser\\Security\\AesEncryption.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:13:30.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "SecureUser\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:12:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SecureUser\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\SecureUser\\SecureUser\\Models\\User.cs",
+              "RelativeToolTip": "SecureUser\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:11:13.779Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

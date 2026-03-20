@@ -1,0 +1,11 @@
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\bin\Debug\net10.0\LibraryMng.deps.json
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\bin\Debug\net10.0\LibraryMng.dll
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\bin\Debug\net10.0\LibraryMng.pdb
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\LibraryMng.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\LibraryMng.AssemblyInfoInputs.cache
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\LibraryMng.AssemblyInfo.cs
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\LibraryMng.csproj.CoreCompileInputs.cache
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\LibraryMng.dll
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\refint\LibraryMng.dll
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\LibraryMng.pdb
+C:\Users\Vinosh\source\repos\LibraryMng\LibraryMng\obj\Debug\net10.0\ref\LibraryMng.dll

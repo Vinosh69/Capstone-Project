@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\migrations\\20260219051243_adddepartmentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\migrations\\20260219051243_adddepartmentdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\models\\empcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\models\\empcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|c:\\users\\vinosh\\source\\repos\\mywebapi\\mywebapi\\migrations\\20260219040737_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DD4506-E86D-2466-F17E-FD9C5F8606B0}|mywebapi\\mywebapi.csproj|solutionrelative:mywebapi\\migrations\\20260219040737_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260219051243_AddDepartmentDate.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Migrations\\20260219051243_AddDepartmentDate.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Migrations\\20260219051243_AddDepartmentDate.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Migrations\\20260219051243_AddDepartmentDate.cs",
+              "RelativeToolTip": "mywebapi\\Migrations\\20260219051243_AddDepartmentDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T05:12:43.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260219040737_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Migrations\\20260219040737_InitialCreate.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Migrations\\20260219040737_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Migrations\\20260219040737_InitialCreate.cs",
+              "RelativeToolTip": "mywebapi\\Migrations\\20260219040737_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T04:07:37.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "mywebapi\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAkwHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T11:39:40.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "mywebapi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T11:38:32.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Models\\EmpContext.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Models\\EmpContext.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Models\\EmpContext.cs",
+              "RelativeToolTip": "mywebapi\\Models\\EmpContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:41:21.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Models\\Department.cs",
+              "RelativeToolTip": "mywebapi\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:39:40.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Models\\Employee.cs",
+              "RelativeToolTip": "mywebapi\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:38:19.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Program.cs",
+              "RelativeDocumentMoniker": "mywebapi\\Program.cs",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\Program.cs",
+              "RelativeToolTip": "mywebapi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:35:04.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\appsettings.json",
+              "RelativeDocumentMoniker": "mywebapi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Vinosh\\source\\repos\\mywebapi\\mywebapi\\appsettings.json",
+              "RelativeToolTip": "mywebapi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T09:25:29.277Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
