@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 namespace RentAPlace.Models
 {
@@ -12,7 +12,7 @@ namespace RentAPlace.Models
 
         public string Location { get; set; } = "";
 
-        public string PropertyType { get; set; } = ""; // Flat, Villa, Apartment
+        public string PropertyType { get; set; } = ""; // e.g., Flat, Villa, Apartment
 
         public decimal PricePerNight { get; set; }
 
@@ -22,7 +22,6 @@ namespace RentAPlace.Models
 
         public User? Owner { get; set; }
 
-        // Navigation Properties
         public ICollection<PropertyImage>? Images { get; set; }
 
         public ICollection<PropertyFeature>? PropertyFeatures { get; set; }

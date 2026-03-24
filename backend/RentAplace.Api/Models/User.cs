@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace RentAPlace.Models
 {
     public class User
     {
-        public int Id { get; set; }   // Primary Key
+        public int Id { get; set; }
 
         public string Name { get; set; } = "";
 
@@ -13,11 +13,10 @@ namespace RentAPlace.Models
 
         public string PasswordHash { get; set; } = "";
 
-        public string Role { get; set; } = ""; // Owner or Renter
+        public string Role { get; set; } = ""; // Owner or User
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        // Navigation Properties
         public ICollection<Property>? Properties { get; set; }
 
         public ICollection<Reservation>? Reservations { get; set; }

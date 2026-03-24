@@ -22,15 +22,15 @@ export class RenterDashboard implements OnInit {
   loadError: string | null = null;
   cancellingIds = new Set<number>();
 
-  // Messaging (Renter <-> Owner)
+  // Chat (renter <-> owner)
   loadingMessages = false;
   messages: any[] = [];
   messageText = '';
   selectedChatReservationId: number | null = null;
   selectedChatPropertyId: number | null = null;
-  selectedChatReceiverId: number | null = null; // ownerId
+  selectedChatReceiverId: number | null = null; // owner user id
 
-  /** All reservations as updates: Pending (awaiting approval), Confirmed (approved), Rejected. Most recent first, Pending first. */
+  /** Reservation status summary for the top section (Pending first, newest first within each group). */
   get statusUpdates(): { propertyTitle: string; status: string; checkInDate: string; checkOutDate: string }[] {
     const map = (r: any) => ({
       propertyTitle: r.property?.title ?? 'Property',
@@ -78,8 +78,6 @@ export class RenterDashboard implements OnInit {
         this.reservations = Array.isArray(data) ? data : (data?.data ?? data?.items ?? (data != null ? [data] : []));
         this.loadError = null;
         this.ensureChatSelection();
-        // extra safety
-        this.loading = false;
         this.cdr.detectChanges();
       },
       error: (err) => {
@@ -89,8 +87,6 @@ export class RenterDashboard implements OnInit {
           : (err?.response?.data?.message ?? err?.message);
         this.loadError = msg || 'Could not load reservations.';
         this.notifier.add(this.loadError || 'Could not load reservations.', 'error');
-        // extra safety
-        this.loading = false;
         this.cdr.detectChanges();
       }
     });

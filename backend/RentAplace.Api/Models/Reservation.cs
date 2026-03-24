@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace RentAPlace.Models
 {
@@ -18,7 +18,6 @@ namespace RentAPlace.Models
 
         public DateTime? CheckOutDate { get; set; }
 
-        public string Status { get; set; } = "Pending";
-        // Pending, Confirmed, Rejected
+        public string Status { get; set; } = "Pending"; // Pending, Confirmed, Rejected
     }
 }

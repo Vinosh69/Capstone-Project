@@ -16,7 +16,6 @@ namespace RentAPlace.Controllers
             _context = context;
         }
 
-        // Get all features
         [HttpGet]
         public async Task<IActionResult> GetFeatures()
         {
@@ -25,7 +24,6 @@ namespace RentAPlace.Controllers
             return Ok(features);
         }
 
-        // Add feature
         [HttpPost]
         public async Task<IActionResult> AddFeature(Feature feature)
         {
@@ -36,7 +34,6 @@ namespace RentAPlace.Controllers
             return Ok(feature);
         }
 
-        // Delete feature
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFeature(int id)
         {

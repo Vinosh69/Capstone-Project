@@ -45,7 +45,7 @@ export class Home implements OnInit {
   ngOnInit(): void {
     this.loadWishlist();
     this.fetchProperties();
-    // Refetch when user navigates back to home (skip first load to avoid double fetch)
+    // If the user navigates away and comes back, refresh the listing once.
     this.router.events
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
       .subscribe(e => {

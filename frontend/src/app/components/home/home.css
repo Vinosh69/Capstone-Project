@@ -111,7 +111,7 @@
 }
 
 .search-button span {
-  display: none; /* Hide text, maybe replace with a magnifying glass icon later */
+  display: none; /* Hide the text label (icon-only button). */
 }
 
 /* Property Cards Grid */

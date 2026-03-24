@@ -47,13 +47,13 @@ export class OwnerDashboard implements OnInit {
   @ViewChild('chatEnd') chatEnd?: ElementRef<HTMLDivElement>;
 
   private scrollChatToBottom(): void {
-    // Scroll after DOM updates so the newest message is visible smoothly.
+    // Scroll after render so the newest message stays in view.
     setTimeout(() => {
       this.chatEnd?.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'end' });
     }, 0);
   }
 
-  /** Pending reservations (new requests) for the notification section. */
+  /** Pending reservations shown in the notification card. */
   get pendingReservations(): any[] {
     return this.reservations.filter(r => r.status === 'Pending');
   }
@@ -208,7 +208,7 @@ export class OwnerDashboard implements OnInit {
     this.propertyService.createProperty(payload).subscribe({
       next: (created: any) => {
         const filesToUpload = this.selectedFiles.length > 0 ? [...this.selectedFiles] : [];
-        // Update UI immediately: add new property to list and clear form (no wait for image upload)
+        // Update the list immediately; image uploads finish in the background.
         this.properties = [...this.properties, created];
         this.doneAdding(true, true);
         if (filesToUpload.length > 0 && created?.id) {
@@ -223,7 +223,7 @@ export class OwnerDashboard implements OnInit {
     });
   }
 
-  /** Upload images after property is created; runs in background so UI stays responsive. */
+  /** Upload images after create; keep it async so the form doesn't block. */
   private uploadImagesInBackground(propertyId: number, files: File[]): void {
     this.propertyService.uploadImages(propertyId, files).subscribe({
       next: () => {
@@ -269,7 +269,7 @@ export class OwnerDashboard implements OnInit {
     const id = r?.id;
     const title = r.property?.title || 'Property';
     const renterName = r.renter?.name || r.renter?.email || 'Renter';
-    // Update UI immediately so it feels instant
+    // Optimistic UI update; revert if the API call fails.
     this.reservations = this.reservations.map(res => res.id === id ? { ...res, status } : res);
     this.cdr.markForCheck();
     if (typeof id === 'number') this.updatingResIds.add(id);

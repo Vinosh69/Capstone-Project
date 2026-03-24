@@ -8,7 +8,7 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add Controllers + Fix JSON Cycle Error + camelCase for API (matches frontend)
+// Controllers + JSON settings (avoid cycles, use camelCase for API responses)
 builder.Services.AddControllers()
 .AddJsonOptions(options =>
 {
@@ -16,11 +16,11 @@ builder.Services.AddControllers()
     options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase;
 });
 
-// Add Entity Framework
+// EF Core
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Enable CORS for Angular
+// CORS (Angular dev server)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular",
@@ -57,7 +57,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Swagger with JWT Support
+// Swagger (JWT enabled)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -89,10 +89,10 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
-// Enable CORS
+// CORS
 app.UseCors("AllowAngular");
 
-// Swagger in development
+// Swagger (dev only)
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

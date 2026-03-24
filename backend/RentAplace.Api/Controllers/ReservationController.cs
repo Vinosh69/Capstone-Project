@@ -47,7 +47,7 @@ namespace RentAPlace.Controllers
                 .Where(r => r.RenterId == renter.Id)
                 .OrderByDescending(r => r.CheckInDate)
                 .ToListAsync();
-            // Renter doesn't need renter details in payload; keep response small
+            // Renter view doesn't need renter info repeated in each row.
             return Ok(list.Select(r => ToDto(r, includeRenter: false)).ToList());
         }
 
@@ -112,7 +112,6 @@ namespace RentAPlace.Controllers
             await _context.SaveChangesAsync();
 
             await NotifyOwnerNewReservation(property, renter, reservation);
-            // return minimal DTO (include property; renter is optional for client)
             reservation.Property = property;
             reservation.Renter = renter;
             return Ok(ToDto(reservation));
@@ -144,7 +143,6 @@ namespace RentAPlace.Controllers
                 if (withRenter?.Renter != null)
                     await NotifyRenterOfStatus(withRenter);
             }
-            // include renter so owner UI has renter info
             existing.Property = existing.Property;
             return Ok(ToDto(existing));
         }

@@ -3,10 +3,9 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 /**
- * Central API client using Axios.
- * - Single base URL and timeout
- * - Request interceptor adds Bearer token from localStorage
- * - Emits inside Angular zone so UI updates immediately
+ * Small wrapper around Angular HttpClient:
+ * - keeps a single API base URL
+ * - provides typed get/post/put/delete helpers
  */
 export const API_BASE = 'http://localhost:5185';
 
@@ -47,7 +46,7 @@ export class ApiService {
   }
 
   postFormData<T = unknown>(url: string, formData: FormData, options?: any): Observable<T> {
-    // For FormData, do not set Content-Type; the browser will add the boundary.
+    // Let the browser set multipart boundaries for FormData.
     const opts = { ...this.normalizeOptions(options), observe: 'body' as const };
     return this.http.post<T>(this.resolveUrl(url), formData, opts as any) as Observable<T>;
   }
