@@ -2,11 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-/**
- * Small wrapper around Angular HttpClient:
- * - keeps a single API base URL
- * - provides typed get/post/put/delete helpers
- */
 export const API_BASE = 'http://localhost:5185';
 
 @Injectable({
